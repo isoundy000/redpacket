@@ -1,0 +1,37 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/base/Core.js",
+        "src/base/CBaseHelper.js",
+        "src/base/CMapArray.js",
+        "src/base/CMsgBase.js",
+        "src/base/CObserData.js",
+        "src/config/config.js",
+        "src/data/static/staticInformationJson.js",
+        "src/data/static/Data.js",
+        "src/data/GameLocalData.js",
+        "src/net/http/CHttpRequest.js",
+        "src/net/ws/CWebSocket.js",
+        "src/net/ws/pomelo.js",
+        "src/net/Client.js",
+        "src/net/Server.js",
+
+
+        "src/ui/sceneState/CSceneBaseState.js",
+        "src/ui/sceneState/CSceneLoginState.js",
+        "src/ui/sceneState/CSceneStateFSM.js"
+
+
+    ]
+}

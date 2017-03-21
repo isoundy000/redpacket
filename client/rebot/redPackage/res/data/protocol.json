@@ -1,0 +1,13 @@
+{
+  "Client":[
+    {"ID":"10001", "name":"packReady","route":      "119.29.99.205:9801/packready","parameters":"","CNotify":"0","http":1,"comment":""},
+    {"ID":"10002", "name":"packageWait","route":     "119.29.99.205:9801/packagewait","parameters":"","CNotify":"0","http":1,"comment":""},
+    {"ID":"10003", "name":"CiPackage","route":      "119.29.99.205:9801/cipackage","parameters":"info","CNotify":"0","http":1,"comment":""}
+  ],
+  "Server":[
+
+    {"ID":"10001","onmessage":"packReadyRes","comment":""},
+    {"ID":"10002","onmessage":"packageWaitRes","comment":""},
+    {"ID":"10003","onmessage":"CiPackageRes","comment":""}
+  ]
+}
